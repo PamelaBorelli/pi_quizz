@@ -15,8 +15,8 @@ const GameOver = () => {
         <p>Você acertou {quizState.score} de {quizState.questions.lenght}{" "} perguntas.</p>
         <img src = {welldone} alt = "Fim do Quiz"></img>
         <button onClick={() => dispatch({type: "NEW_GAME"})}>Reiniciar</button>
-    </div>
+    </div> 
   )
 }
-
+// comentario alatorio
 export default GameOver
